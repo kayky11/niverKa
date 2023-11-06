@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #FF5733;
+}
+
+.convite {
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button#negarConvite {
+    background-color: #FF5733;
+}
+
+.oculto {
+    display: none;
+}
